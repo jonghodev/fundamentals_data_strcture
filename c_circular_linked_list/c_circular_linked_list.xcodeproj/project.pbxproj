@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9325652325A00A670093CF15 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9325652225A00A670093CF15 /* main.c */; };
 		9325652C25A00A790093CF15 /* CLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 9325652B25A00A790093CF15 /* CLinkedList.c */; };
+		9325659B25A095230093CF15 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 9325659A25A095230093CF15 /* Stack.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,8 @@
 		9325652A25A00A790093CF15 /* CLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLinkedList.h; sourceTree = "<group>"; };
 		9325652B25A00A790093CF15 /* CLinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CLinkedList.c; sourceTree = "<group>"; };
 		9325652F25A00B580093CF15 /* Employee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		9325659925A095230093CF15 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		9325659A25A095230093CF15 /* Stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Stack.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				9325652225A00A670093CF15 /* main.c */,
+				9325659925A095230093CF15 /* Stack.h */,
+				9325659A25A095230093CF15 /* Stack.c */,
 				9325652A25A00A790093CF15 /* CLinkedList.h */,
 				9325652B25A00A790093CF15 /* CLinkedList.c */,
 				9325652F25A00B580093CF15 /* Employee.h */,
@@ -125,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9325659B25A095230093CF15 /* Stack.c in Sources */,
 				9325652C25A00A790093CF15 /* CLinkedList.c in Sources */,
 				9325652325A00A670093CF15 /* main.c in Sources */,
 			);

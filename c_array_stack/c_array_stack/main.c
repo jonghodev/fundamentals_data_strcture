@@ -1,24 +1,12 @@
-//
-//  main.c
-//  c_array_stack
-//
-//  Created by jongho on 2021/01/02.
-//
-
-#include "ArrayBaseStack.h"
+#include "InfixToPostfix.h"
+#include "PostCalculator.h"
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    Stack stack;
-    StackInit(&stack);
+    char exp1[] = "1+2*3";
     
-    SPush(&stack, 4);
-    SPush(&stack, 5);
-    SPush(&stack, 6);
-    SPush(&stack, 7);
-    
-    while(!SIsEmpty(&stack))
-        printf("%d ", SPop(&stack));
+    ConvertToRPNExp(exp1);
+    printf("%d \n", EvalRPNExp(exp1));
     
     return 0;
 }
